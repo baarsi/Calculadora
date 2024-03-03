@@ -2,7 +2,7 @@
 import math
 
 # Definindo classe e funções
-class calculadora:
+class Calculadora:
     def adicao(self, x, y):
         return x + y
     
