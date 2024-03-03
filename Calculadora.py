@@ -4,42 +4,34 @@ import math
 # Definindo classe e funções
 class calculadora:
     def adicao(self, x, y):
-        adi = x + y
-        return adi
+        return x + y
     
     def subtracao(self, x, y):
-        sub = x - y
-        return sub
+        return x - y
     
     def multiplicacao(self, x, y):
-        mult = x*y
-        return mult
+        return x*y
     
     def divisao(self, x, y):
         if y != 0:
-            divi = x/y
-            return divi
+            return x*y
         else:
             return "Erro! Divisão por zero!"
         
     def raiz_quadrada(self, x):
-        raiz2 = math.sqrt(x)
-        return raiz2
+        return math.sqrt(x)
     
     def raiz(self, x, y):
-        raizx = x**(1/y)
-        return raizx
+        return x**(1/y)
     
     def potencia(self, x, y):
-        pot = x**y
-        return pot
+        return x**y
     
     def porcentagem(self, x, y):
-        porc = x * (y / 100)
-        return porc
+        return x * (y / 100)
     
 # Instância para a classe Calculadora
-calculadora = calculadora()
+calculadora = Calculadora()
 
 # Dicionário de símbolos das operações
 operacoes = {
